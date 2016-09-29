@@ -90,14 +90,18 @@ section {
 
 
 .head-btn-one {
-    background-color: rgba(252, 64, 101, 1);
+    background-color: rgba(0, 0, 0, 0.68);
     border: 0px solid #fff;
     margin-left: 25px;
     margin-right: 25px;
 
 }
+
+.head-btn-one:hover {
+      background-color: #1f1d1d;
+}
+
 #home-sec {
-    background-image: url("http://omegapublic.com/wp-content/uploads/2014/12/Miami-skyline-31.jpg");
     background-color:rgba(0, 121, 138, 1);
 }
 #home {
@@ -134,8 +138,8 @@ border-radius: 0px;
 }
 
 .navbar-inverse {
-	background: #000000;
-
+	background: #4d4f4a;
+  border: none;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
@@ -256,4 +260,71 @@ font-size: 45px;
 .section-title {
   text-align: center;
   padding-bottom: 35px;
+}
+
+.test-img {
+  width: 210px;
+  height: 245px;
+}
+
+.test-quote {
+  font-size: 25px;
+}
+
+.test-name {
+  font-size: 18px;
+}
+
+.test-title {
+  font-style: italic;
+}
+
+.businesses-img {
+  width: 100%;
+}
+
+/*==========================================
+    VIDEO STUFF
+==============================================*/
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
 }
