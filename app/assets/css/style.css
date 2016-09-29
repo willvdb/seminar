@@ -92,6 +92,8 @@ section {
 .head-btn-one {
     background-color: rgba(252, 64, 101, 1);
     border: 0px solid #fff;
+    margin-left: 25px;
+    margin-right: 25px;
 
 }
 #home-sec {
@@ -99,8 +101,8 @@ section {
     background-color:rgba(0, 121, 138, 1);
 }
 #home {
-    padding-top:130px;
-    padding-bottom:200px;
+    padding-top:80px;
+    padding-bottom:150px;
     color:#fff;
 }
 .head-main {
@@ -112,6 +114,7 @@ section {
     font-size:40px ;
     font-weight:600;
     padding:5px 20px 10px 20px;
+    margin-top:0px;
 }
 .head-last {
     font-size:20px ;
@@ -247,4 +250,10 @@ font-size: 45px;
     color:#fff;
     padding:20px 50px 20px 50px;
     text-align:right;
+}
+
+
+.section-title {
+  text-align: center;
+  padding-bottom: 35px;
 }
